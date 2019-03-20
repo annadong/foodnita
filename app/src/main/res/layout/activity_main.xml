@@ -7,37 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <ViewFlipper
-            android:id="@+id/viewFlipper"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="centerInside"
-                android:src="@drawable/chipotle" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="centerInside"
-                android:src="@drawable/ramen" />
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="centerInside"
-                android:src="@drawable/saldking" />
-
-        </ViewFlipper>
-
-    <Button
+        <Button
         android:id="@+id/next"
         android:layout_width="104dp"
         android:layout_height="104dp"
@@ -61,17 +31,13 @@
         android:layout_marginBottom="23dp"
         android:background="@drawable/x"
         android:textAlignment="center" />
+    
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/fragmentContainer"/>
 
-    <Button
-        android:id="@+id/choose"
-        android:layout_width="253dp"
-        android:layout_height="73dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginBottom="144dp"
-        android:background="@drawable/eatme"
-        android:textAlignment="center" />
-    </RelativeLayout>
+</RelativeLayout>

@@ -39,4 +39,8 @@ public class RestaurantImageFragment extends Fragment {
         return view;
     }
 
+    public void showNextImg(int img) {
+        resImage.setImageResource(img);
+    }
+
 }

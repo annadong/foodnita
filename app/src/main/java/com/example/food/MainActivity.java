@@ -32,31 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     };
 
     private int count = 0;
-//    public class MainActivity extends FragmentActivity{
-//        @Override
-//        public void onCreate(Bundle savedInstanceState) {
-//            super.onCreate(savedInstanceState);
-//            setContentView(R.layout.main);
-//            OnClickListener listener = new OnClickListener() {
-//                public void onClick(View view) {
-//                    Fragment fragment = null;
-//                    if(view == findViewById(R.id.button1)){
-//                        fragment = new FragmentOne();
-//                    } else {
-//                        fragment = new FragmentTwo();
-//                    }
-//                    FragmentManager manager = getSupportFragmentManager();
-//                    FragmentTransaction transaction = manager.beginTransaction();
-//                    transaction.replace(R.id.output, fragment);
-//                    transaction.commit();
-//                }
-//            };
-//            Button btn1 = (Button)findViewById(R.id.button1);
-//            btn1.setOnClickListener(listener);
-//            Button btn2 = (Button)findViewById(R.id.button2);
-//            btn2.setOnClickListener(listener);
-//        }
-//    }
 
 
     @Override
